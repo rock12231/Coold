@@ -1,9 +1,0 @@
-How to Extend or reset IDM trial Period In windows XP, 7, 8and Windows Vista – Easy way to get rid from Trial version of Internet Download Manager
-First go to start button >> select run >> write “regedit” and hit enter.
-Registry editor will be open.
-Now click on edit from menu bar and go for find. as shown in figure bellow.
-4. In the find box type “DownloadManager“. Keep in mind to check Values and Data check box under Look at section in find box.
- 5. Click on Find button. It will start searching and take a folder named as Download Manager. Just   delete that folder.
-6. Now search for “internet Download Manager” and delete its resulting folder too. as shown in figure bellow.
- 7. By deleting these folder all the entries of IDM will be deleted and you can use your trial version again for 30 days.
-8. Do the same procedure just 1 day before expiration of IDM trial version and enjoy the trial again and again.
