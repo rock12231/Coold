@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './containers/home/home.component';
 import { ContactComponent } from './containers/contact/contact.component';
 import { ErrorComponent } from './containers/error/error.component';
+import { IframeComponent } from './components/iframe/iframe.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ErrorComponent } from './containers/error/error.component';
     HomeComponent,
     ContactComponent,
     ErrorComponent,
+    IframeComponent,
   ],
   imports: [
     BrowserModule,
