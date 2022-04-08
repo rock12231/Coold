@@ -3,6 +3,7 @@ import { ContactComponent } from './containers/contact/contact.component';
 import { HomeComponent } from './containers/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ColorCodeComponent } from './containers/color-code/color-code.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  }, 
+  {
+    path: 'colorcode',
+    component: ColorCodeComponent
   },
   {
     path: '*',

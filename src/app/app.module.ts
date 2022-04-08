@@ -9,6 +9,7 @@ import { HomeComponent } from './containers/home/home.component';
 import { ContactComponent } from './containers/contact/contact.component';
 import { ErrorComponent } from './containers/error/error.component';
 import { IframeComponent } from './components/iframe/iframe.component';
+import { ColorCodeComponent } from './containers/color-code/color-code.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { IframeComponent } from './components/iframe/iframe.component';
     ContactComponent,
     ErrorComponent,
     IframeComponent,
+    ColorCodeComponent,
   ],
   imports: [
     BrowserModule,
